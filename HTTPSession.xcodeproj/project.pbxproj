@@ -13,6 +13,7 @@
 		4DEA89D11F2EBAEC000AB899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA89CF1F2EBAEC000AB899 /* Main.storyboard */; };
 		4DEA89D31F2EBAEC000AB899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA89D21F2EBAEC000AB899 /* Assets.xcassets */; };
 		4DEA89D61F2EBAEC000AB899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA89D41F2EBAEC000AB899 /* LaunchScreen.storyboard */; };
+		4DEA89E01F2EBC56000AB899 /* HTTPCookiesUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA89DF1F2EBC56000AB899 /* HTTPCookiesUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4DEA89D21F2EBAEC000AB899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DEA89D51F2EBAEC000AB899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DEA89D71F2EBAED000AB899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DEA89DE1F2EBC56000AB899 /* HTTPCookiesUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPCookiesUtil.h; sourceTree = "<group>"; };
+		4DEA89DF1F2EBC56000AB899 /* HTTPCookiesUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPCookiesUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4DEA89C51F2EBAEC000AB899 /* HTTPSession */ = {
 			isa = PBXGroup;
 			children = (
+				4DEA89DD1F2EBC40000AB899 /* HTTPCookies */,
 				4DEA89C91F2EBAEC000AB899 /* AppDelegate.h */,
 				4DEA89CA1F2EBAEC000AB899 /* AppDelegate.m */,
 				4DEA89CC1F2EBAEC000AB899 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				4DEA89C71F2EBAEC000AB899 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DEA89DD1F2EBC40000AB899 /* HTTPCookies */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA89DE1F2EBC56000AB899 /* HTTPCookiesUtil.h */,
+				4DEA89DF1F2EBC56000AB899 /* HTTPCookiesUtil.m */,
+			);
+			path = HTTPCookies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 				4DEA89CE1F2EBAEC000AB899 /* ViewController.m in Sources */,
 				4DEA89CB1F2EBAEC000AB899 /* AppDelegate.m in Sources */,
 				4DEA89C81F2EBAEC000AB899 /* main.m in Sources */,
+				4DEA89E01F2EBC56000AB899 /* HTTPCookiesUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
